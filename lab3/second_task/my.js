@@ -3,8 +3,15 @@ let btn = document.getElementById('btn');
 let todos = document.getElementById("todos");
 
 
+// let text = "       Hello World!        ";
+// let result = text.trim();
+
+
+
 btn.addEventListener('click', function() {
-    let new_task = display.value;
+    let text = display.value;
+    let new_task = text.trim();
+    
     if(new_task){
         let taskDiv = document.createElement('div');
         taskDiv.classList.add('task-item');
@@ -42,5 +49,11 @@ btn.addEventListener('click', function() {
     }
     else{
         alert('Please write task')
+        btn.style.backgroundColor = "red"
+        setTimeout(() => {
+            btn.style.backgroundColor = "white"
+
+        }, 500)
     }
+    display.value = ""
 })
