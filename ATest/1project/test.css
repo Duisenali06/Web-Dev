@@ -1,0 +1,53 @@
+#h1 {
+    font-family: Geneva; 
+    color:aqua;
+    font-weight: 100;
+    font-size : 50px;
+    text-align:center;
+}
+
+.text{
+    line-height: 100px;
+    letter-spacing: 10px;
+
+}
+
+.test{
+
+    text-indent: 50px;
+}
+
+#line{
+    text-decoration: line-through;
+    border: 5px red solid;
+}
+
+#border{
+    width: 200px;
+    height: 200px;
+
+    border: 5px black solid;
+
+    padding: 20%;
+    margin: 20%;
+
+}
+
+
+#div{
+    width: 200px;
+    height: 200px;
+
+    border: 5px black solid;
+
+    padding: 20%;
+    margin: 20%;
+}
+
+#border {
+    background-color: lightblue;
+}
+
+#div {
+    background-color: lightgreen;
+}
